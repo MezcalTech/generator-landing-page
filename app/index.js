@@ -138,8 +138,8 @@ AppGenerator.prototype.writeIndex = function writeIndex() {
   var contentText = [
     '        <div class="container">',
     '            <div class="hero-unit">',
-    '                <h1>\'Allo, \'Allo!</h1>',
-    '                <p>You now have</p>',
+    '                <h1>Yo, You Landed!</h1>',
+    '                <p>This page is configured with:</p>',
     '                <ul>'
   ];
 

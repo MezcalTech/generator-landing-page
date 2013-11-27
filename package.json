@@ -1,22 +1,26 @@
 {
-  "name": "generator-webapp",
-  "version": "0.2.2",
-  "description": "Default Yeoman generator for scaffolding out a front-end web app",
+  "name": "generator-landing-page",
+  "version": "0.1.0",
+  "description": "Fork of default Yeoman generator, with optional landing page features such as social buttons and email signup.",
   "keywords": [
     "yeoman-generator",
-    "web",
-    "app",
-    "front-end",
+    "landing",
+    "page",
+    "marketing",
+    "site",
+    "social",
+    "email",
+    "product",
     "h5bp",
-    "modernizr"
+    "bootstrap"
   ],
-  "homepage": "https://github.com/yeoman/generator-webapp",
-  "bugs": "https://github.com/yeoman/generator-webapp/issues",
-  "author": "Chrome Developer Relations",
+  "homepage": "https://github.com/quartzmo/generator-landing-page",
+  "bugs": "https://github.com/quartzmo/generator-landing-page/issues",
+  "author": "quartzmo",
   "main": "app/index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/yeoman/generator-webapp.git"
+    "url": "git://github.com/quartzmo/generator-landing-page.git"
   },
   "scripts": {
     "test": "mocha --reporter spec"

@@ -5,14 +5,14 @@ var helpers = require('yeoman-generator').test;
 var assert  = require('assert');
 
 
-describe('Webapp generator test', function () {
+describe('Landing page generator test', function () {
   beforeEach(function (done) {
     helpers.testDirectory(path.join(__dirname, 'temp'), function (err) {
       if (err) {
         return done(err);
       }
 
-      this.webapp = helpers.createGenerator('webapp:app', [
+      this.webapp = helpers.createGenerator('landing-page:app', [
         '../../app', [
           helpers.createDummyGenerator(),
           'mocha:app'

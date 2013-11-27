@@ -1,13 +1,13 @@
-# Web app generator [![Build Status](https://secure.travis-ci.org/yeoman/generator-webapp.png?branch=master)](http://travis-ci.org/yeoman/generator-webapp)
+# Landing page generator
 
-Yeoman generator for scaffolding out a front-end web app.
+Fork of default Yeoman generator, with optional landing page features such as social buttons and email signup.
 
 
 ## Getting Started
 
 - Make sure you have [yo](https://github.com/yeoman/yo) installed: `npm install -g yo`
-- Install the generator: `npm install -g generator-webapp`
-- Run: `yo webapp`
+- Install the generator: `npm install -g generator-landing-page`
+- Run: `yo landing-page`
 - Run `grunt` for building and `grunt server` for preview
 
 
@@ -22,11 +22,6 @@ Yeoman generator for scaffolding out a front-end web app.
 
   Defaults to `mocha`. Can be switched for
   another supported testing framework like `jasmine`.
-
-
-## Contribute
-
-See the [contributing docs](https://github.com/yeoman/yeoman/blob/master/contributing.md)
 
 
 ## License
